@@ -1,41 +1,52 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="product" content="metro ui css framework">
-    <meta name="description" content="simple responsive css framework">
-    <meta name="author" content="sergey s. pimenov, ukraine, kiev">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="product" content="metro ui css framework">
+<meta name="description" content="simple responsive css framework">
+<meta name="author" content="sergey s. pimenov, ukraine, kiev">
 
-    <link href="css/metro-bootstrap.css" rel="stylesheet">
-    <!-- <link href="css/metro-bootstrap-responsive.css" rel="stylesheet"> -->
-    <link href="css/iconfont.css" rel="stylesheet">
+<link href="css/metro-bootstrap.css" rel="stylesheet">
+<!-- <link href="css/metro-bootstrap-responsive.css" rel="stylesheet"> -->
+<link href="css/iconfont.css" rel="stylesheet">
+<link href="css/new/bootstrap.min.css" rel="stylesheet">
+<link href="css/new/font-awesome.min.css" rel="stylesheet">
+<link href="css/new/site.min.css?v3" rel="stylesheet">
 
-    <!-- load javascript libraries -->
-    <script src="js/jquery/jquery.min.js"></script>
-    <script src="js/jquery/jquery.widget.min.js"></script>
+<!-- load javascript libraries -->
+<script src="js/jquery/jquery.min.js"></script>
+<script src="js/jquery/jquery.widget.min.js"></script>
 
-    <!-- metro ui css javascript plugins -->
-    <script src="js/load-metro.js"></script>
+<script src="js/new/bootstrap.min.js"></script>
+<script src="js/new/jquery.unveil.min.js"></script>
+<script src="js/new/jquery.scrollUp.min.js"></script>
+<script src="js/new/toc.min.js"></script>
+<script src="js/new/site.min.js"></script>
 
-    <!-- local javascript -->
-    <script src="js/github.info.js"></script>
 
-    <title>Tsinghua DaiLab</title>
-    <script src="js/metro.min.js"></script>
+<!-- metro ui css javascript plugins -->
+<script src="js/load-metro.js"></script>
 
-    <style>
-        .container {
-            width: 1150px;
-        }
-    </style>
+<!-- local javascript -->
+<script src="js/github.info.js"></script>
+
+<title>Tsinghua DaiLab</title>
+<script src="js/metro.min.js"></script>
+
+<style>
+.container {
+    width: 1150px;
+}
+</style>
 </head>
-<body class="metro">
+<body>
+<div class="metro">
     <div class="container">
         <header class="margin20 nrm nlm">
             <div class="clearfix">
-                <a class="place-left" href="#" title="">  
-                    <h1><font face='Helvetica'>Tsinghua Dai Lab</font></h1>
+                <a class="place-left"  title="">  
+                    <h1 style="font-family: 'Times New Roman'"><em>Tsinghua Dai Lab </em></h1>
                 </a>
                 <a class="" href='http://www.tsinghua.edu.cn/publish/newthu/index.html' style="margin-left:200px">
                     <img src="images/Tsinghua.png" />
@@ -44,17 +55,31 @@
                     <img src="images/logo.gif" />
                 </a>
             </div>
-
-            <div class="main-menu-wrapper">
-                <ul class="horizontal-menu nlm">
+        </header>
+    </div> 
+</div> 
+<div class="home-template">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hidden-sm" >Tsinghua DaiLab</a>
+            </div>
+            <div class="navbar-collapse collapse" role="navigation">
+                <ul class="nav navbar-nav">
                     <li><a href="DaiLab.html">Dai Lab</a></li>
                     <li><a href="LabMembers.html">Lab Members</a></li>
                     <li><a href="Publications.html">Publications</a></li>
                     <li><a href="Lab Activities.html">Lab Activities</a></li>
                     <li><a href="Jobs.html">Jobs</a></li>
-                    <li>
-                    <a class="dropdown-toggle" href="#">Research</a>
-                    <ul class="dropdown-menu" data-role="dropdown">
+                    <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" >Research<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
                         <li><a href="Chromatin Biology.html">Chromatin Biology</a></li>
                         <li><a href="Synthetic Biology.html">Synthetic Biology</a></li>
                         <li><a href="Algal Biology.html">Algal Biology</a></li>
@@ -62,18 +87,14 @@
                     </li>
                 </ul>
             </div>
-        </header>
-
+        </div>
+    </div>
+</div>
+<div class="metro">
+    <div class="container" style="margin-left: 200px">
         <div class="main-content clearfix">
             <div class="tile-area no-padding clearfix">
                 <div class="tile-group no-margin no-padding clearfix" style="width: 100%">
-                    <div class="tile onedouble quadro-vertical bg-gray ol-transparent" style="float: right; ">
-                        <div class="tile-content">
-                            <div class="brand">
-                                <span class="label fg-white"></span>
-                            </div>
-                        </div>
-                    </div>
                     <div class="tile quadro double-vertical ol-transparent">
                         <div class="tile-content">
                             <div class="carousel" data-role="carousel" data-height="100%" data-width="100%" data-controls="false">
@@ -122,9 +143,10 @@
             </div>
         </div>
     </div>
-    <div class="body-text" style="width: 900px;align: center">
+    <div class="body-text" style=" margin-left: 500px; margin-top: 50px; margin-bottom: 20px">
         <span>京ICP备14049885号&nbsp &nbsp京公网安备11010802016555</span>
     </div> 
     <script src="js/hitua.js"></script>
-</body>
+</div> 
+    </body>
 </html>

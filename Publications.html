@@ -1,62 +1,86 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="product" content="metro ui css framework">
-    <meta name="description" content="simple responsive css framework">
-    <meta name="author" content="sergey s. pimenov, ukraine, kiev">
-    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="product" content="metro ui css framework">
+<meta name="description" content="simple responsive css framework">
+<meta name="author" content="sergey s. pimenov, ukraine, kiev">
 
-    <link href="css/metro-bootstrap.css" rel="stylesheet">
-    <!-- <link href="css/metro-bootstrap-responsive.css" rel="stylesheet"> -->
-    <link href="css/iconfont.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen,print" href="css/mypublications.css" />
 
-    <!-- load javascript libraries -->
-    <script src="js/jquery/jquery.min.js"></script>
-    <script src="js/jquery/jquery.widget.min.js"></script>
+<link href="css/metro-bootstrap.css" rel="stylesheet">
+<!-- <link href="css/metro-bootstrap-responsive.css" rel="stylesheet"> -->
+<link href="css/iconfont.css" rel="stylesheet">
+<link href="css/new/bootstrap.min.css" rel="stylesheet">
+<link href="css/new/font-awesome.min.css" rel="stylesheet">
+<link href="css/new/site.min.css?v3" rel="stylesheet">
 
-    <!-- metro ui css javascript plugins -->
-    <script src="js/load-metro.js"></script>
+<!-- load javascript libraries -->
+<script src="js/jquery/jquery.min.js"></script>
+<script src="js/jquery/jquery.widget.min.js"></script>
 
-    <!-- local javascript -->
-    <script src="js/github.info.js"></script>
+<script src="js/new/bootstrap.min.js"></script>
+<script src="js/new/jquery.unveil.min.js"></script>
+<script src="js/new/jquery.scrollUp.min.js"></script>
+<script src="js/new/toc.min.js"></script>
+<script src="js/new/site.min.js"></script>
 
-	
-    <title>Publications</title>
-    <script src="js/metro.min.js"></script>
-    <style>
-        .container {
-            width: 1150px;
-        }
-    </style>
+
+<!-- metro ui css javascript plugins -->
+<script src="js/load-metro.js"></script>
+
+<!-- local javascript -->
+<script src="js/github.info.js"></script>
+
+
+<title>Publications</title>
+<script src="js/metro.min.js"></script>
+<style>
+.container {
+    width: 1150px;
+}
+</style>
 </head>
-<body class="metro" style="margin:0 auto;width: 1200px">
+<body>
+<div class="metro">
     <div class="container">
         <header class="margin20 nrm nlm">
             <div class="clearfix">
-                <a class="place-left" href="#" title="">  
-                    <h1><font face='Helvetica'>Tsinghua Dai Lab</font></h1>
+               <a class="place-left"  title="">  
+                    <h1 style="font-family: 'Times New Roman'"><em>Tsinghua Dai Lab </em></h1>
                 </a>
                 <a class="" href='http://www.tsinghua.edu.cn/publish/newthu/index.html' style="margin-left:200px">
-                    <img src="images/Tsinghua.png"  />
+                    <img src="images/Tsinghua.png" />
                 </a>
                 <a class="" href='http://life.tsinghua.edu.cn' style="margin-left: 30px">
                     <img src="images/logo.gif" />
                 </a>
             </div>
-
-            <div class="main-menu-wrapper">
-                <ul class="horizontal-menu nlm">
+        </header>
+    </div> 
+</div> 
+<div class="home-template">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hidden-sm" >Tsinghua DaiLab</a>
+            </div>
+            <div class="navbar-collapse collapse" role="navigation">
+                <ul class="nav navbar-nav">
                     <li><a href="DaiLab.html">Dai Lab</a></li>
                     <li><a href="LabMembers.html">Lab Members</a></li>
                     <li><a href="Publications.html">Publications</a></li>
                     <li><a href="Lab Activities.html">Lab Activities</a></li>
                     <li><a href="Jobs.html">Jobs</a></li>
-                    <li>
-                    <a class="dropdown-toggle" href="#">Research</a>
-                    <ul class="dropdown-menu" data-role="dropdown">
+                    <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" >Research<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
                         <li><a href="Chromatin Biology.html">Chromatin Biology</a></li>
                         <li><a href="Synthetic Biology.html">Synthetic Biology</a></li>
                         <li><a href="Algal Biology.html">Algal Biology</a></li>
@@ -64,23 +88,19 @@
                     </li>
                 </ul>
             </div>
-        </header>
-
+        </div>
+    </div>
+</div>
+<div class="metro">
+    <div class="container">
         <div class="main-content clearfix">
             <div class="tile-area no-padding clearfix">
                 <div class="tile-group no-margin no-padding clearfix" style="width: 100%">
-                    <div class="tile onedouble quadro-vertical bg-gray ol-transparent" style="float: right">
-                        <div class="tile-content">
-                            <div class="brand">
-                                <span class="label fg-white"></span>
-                            </div>
-                        </div>
-                    </div>
                     <div class="paragraph_style">
-                        Publications
-                    </div>
-                    <h3 class='fg-blue' style="margin-left: 5px; margin-top: 15px"><em>2014</em></h3>
-                    <div class='body-text' style="margin-left: 5px; font-size: 20px; width: 900px">
+                            <h1 style="font-family: Caflisch Script">Publications</h1>  
+                        </div>
+                    <h3 class='fg-blue' style="margin-left: 100px; margin-top: 15px"><em>2014</em></h3>
+                    <div class='body-text' style="margin-left: 125px; font-size: 20px; width: 900px">
                         <ul style="font-size: 17px; line-height: 40px">
                             <li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4132264/">Li Zhao, <strong>Junbiao Dai*</strong> and Qingyu Wu*, Autophagy-like processes are involved in lipid droplet degadation in Auxenochlorella protothecoides during the heterotrophy-autotrophy transition, <strong><em>Front Plant Sci.</em></strong>, 2014, 5: 400. (*Co-corresponding author)
                             </a></li>
@@ -96,8 +116,8 @@
                             </a></li>
                         </ul>
                     </div>
-                    <h3 class='fg-blue' style="margin-left: 5px; margin-top: 15px"><em>2013</em></h3>
-                    <div class='body-text' style="margin-left: 5px; font-size: 20px; width: 900px">
+                    <h3 class='fg-blue' style="margin-left: 100px; margin-top: 15px"><em>2013</em></h3>
+                    <div class='body-text' style="margin-left: 125px; font-size: 20px; width: 900px">
                         <ul style="font-size: 17px; line-height: 40px">
                             <li><a href="http://www.tandfonline.com/doi/abs/10.1080/09593330.2013.824011">Yue Lu, <strong>Junbiao Dai*</strong> and Qingyu Wu*, Photosynthesis-fermentation hybrid system to produce lipid feedstock for algal biofuel, <strong><em>Environmental Technology</em></strong>, 2013, 34:13-14, 1869-1876 (*Co-corresponding author)
                             </a></li>
@@ -109,8 +129,8 @@
                             </a></li>
                         </ul>
                     </div>
-                    <h3 class='fg-blue' style="margin-left: 5px; margin-top: 15px"><em>2012</em></h3>
-                    <div class='body-text' style="margin-left: 5px; font-size: 20px; width: 900px">
+                    <h3 class='fg-blue' style="margin-left: 100px; margin-top: 15px"><em>2012</em></h3>
+                    <div class='body-text' style="margin-left: 125px; font-size: 20px; width: 900px">
                         <ul style="font-size: 17px; line-height: 40px">
                             <li><a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0041826"> Qiao Jiang, Li Zhao, <strong>Junbiao Dai*</strong> and Qingyu Wu*, Analysis of autophagy genes in microalgae: Chlorella as a potential model to study mechanism of autophagy, <strong><em>Plos One</em></strong>, 2012, 7 (7): e41826 (Co-corresponding author)
                             </a></li>
@@ -120,8 +140,8 @@
                             </a></li>
                         </ul>
                     </div>
-                    <h3 class='fg-blue' style="margin-left: 5px; margin-top: 15px"><em>2011</em></h3>
-                    <div class='body-text' style="margin-left: 5px; font-size: 20px; width: 900px">
+                    <h3 class='fg-blue' style="margin-left: 100px; margin-top: 15px"><em>2011</em></h3>
+                    <div class='body-text' style="margin-left: 125px; font-size: 20px; width: 900px">
                         <ul style="font-size: 17px; line-height: 40px">
                             <li><a href="http://www.ncbi.nlm.nih.gov/pubmed/21908771">Chao Peng, Zhike Lu, Zhongyu Xie, Zhongyi Cheng, Yue Chen, Minjia Tan, Hao Luo, Yi Zhang, Wendy He, Ke Yang, Bernadette M. M. Zwaans, Daniel Tishkoff, Linh Ho, David Lombard, Tong-Chuan He, <strong>Junbiao Dai</strong>, Eric Verdin, Yang Ye, and Yingming Zhao, The first identification of lysine malonylation substrates and its regulatory enzyme, <strong><em>Mol Cell Proteomics</em></strong>, 2011, 10(12): M111.012658
                             </a></li>
@@ -131,8 +151,8 @@
                             </a></li>
                         </ul>
                     </div>
-                    <h3 class='fg-blue' style="margin-left: 5px; margin-top: 15px"><em>Before 2011</em></h3>
-                    <div class='body-text' style="margin-left: 5px; font-size: 20px; width: 900px">
+                    <h3 class='fg-blue' style="margin-left: 100px; margin-top: 15px"><em>Before 2011</em></h3>
+                    <div class='body-text' style="margin-left: 125px; font-size: 20px; width: 900px">
                         <ul style="font-size: 17px; line-height: 40px">
                             <li><a href="http://www.ncbi.nlm.nih.gov/pubmed/20713692"><strong>Junbiao Dai</strong>, Edel M. Hyland, Anne Norris and Jef D. Boeke, Yin and yang of histone H2B??s role in silencing and longevity: a tale of two arginines, <strong><em>Genetics</em></strong>, 2010, 186(3): 813-828
                             </a></li>
@@ -155,20 +175,21 @@
             </div>
         </div>
     </div>
-    <div class="body-text" style="width: 900px;align: center">
-    <span>京ICP备14049885号&nbsp &nbsp京公网安备11010802016555</span>
+    <div class="body-text" style=" margin-left: 500px; margin-top: 50px; margin-bottom: 20px">
+        <span>京ICP备14049885号&nbsp &nbsp京公网安备11010802016555</span>
+    </div> 
 </div> 
 
-</body>
-</html>
-                   
+    </body>
+    </html>
 
 
-                    
 
 
-                    
-                    
+
+
+
+
 
 
 
